@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+black = "*"
+
+[packages]
+requests = "*"
+xlrd = "*"
+bpython = "*"
+windows-curses = "*"
+jsonpath = "*"
+pytest = "*"
+pytest-html = "*"
+requests-html = "*"
+flask = "*"
+beautifulsoup4 = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
